@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+<name>HolyWasher</name>
+<author>Blacharnia, sma342 and water</author>
+<targetVersion>0.18.0</targetVersion>
+<url/>
+<description>
+Holy Washer that removes worn by corpse effect from apparel 
+	C# Code - Blacharnia 
+	XML Code and Artwork - sma342
+	Artwork - water
+</description>
+</ModMetaData>

@@ -1,0 +1,6 @@
+C:\Rimworld\rimworld-tradingspot-20170616\rimworld-tradingspot-20170616\Assemblies\TradingSpot.dll
+C:\Rimworld\rimworld-tradingspot-20170616\rimworld-tradingspot-20170616\Source\obj\Debug\TradingSpot.csprojResolveAssemblyReference.cache
+C:\Rimworld\rimworld-tradingspot-20170616\rimworld-tradingspot-20170616\Source\obj\Debug\TradingSpot.dll
+C:\Rimworld\RimWorldAlpha17bWin\RimWorld1557Win\Mods\HollyWasher2\Assemblies\HollyWasher.dll
+C:\Rimworld\RimWorldAlpha17bWin\RimWorld1557Win\Mods\HollyWasher2\Source\obj\Debug\TradingSpot.csprojResolveAssemblyReference.cache
+C:\Rimworld\RimWorldAlpha17bWin\RimWorld1557Win\Mods\HollyWasher2\Source\obj\Debug\HollyWasher.dll
