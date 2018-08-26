@@ -4,13 +4,13 @@
 <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
   </ThingDef>
   
 	<ThingDef ParentName="BuildingBase">
@@ -19,12 +19,12 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<description>The good old washing machine "Halinka 2000" removes a worn by corpse effect from Apparel.</description>
 		<graphicData>
-			<texPath>Things/HolyWasher/Building/WM</texPath>
+			<texPath>Things/Building/WM</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 		</graphicData>
     <costList>
       <Steel>150</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
 		<altitudeLayer>Building</altitudeLayer>		
 		<statBases>
@@ -54,7 +54,7 @@
    <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
         <basePowerConsumption>300</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
@@ -73,7 +73,7 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<description>Old metal basin where you wash your clothes to remove a worn by corpse effect from Apparel.</description>
 		<graphicData>
-			<texPath>Things/HolyWasher/Building/MetalBasin/MB</texPath>
+			<texPath>Things/Building/MetalBasin/MB</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>

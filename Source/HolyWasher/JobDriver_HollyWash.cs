@@ -10,7 +10,7 @@ using Verse.AI;
 namespace HollyWasher
 {
 	public class JobDriver_HollyWash : JobDriver_DoBill {
-	public override bool TryMakePreToilReservations()
+	public override bool TryMakePreToilReservations(bool errorOnFailed)
 {
     return true;
 }
@@ -46,10 +46,10 @@ namespace HollyWasher
                 workCycleProgress -= StatExtension.GetStatValue(actor, StatDefOf.WorkToMake, true);
 
                 tableThing.UsedThisTick();
-                if (!tableThing.UsableNow)
-                {
-                    actor.jobs.EndCurrentJob(JobCondition.Incompletable);
-                }
+                //if (!tableThing.UsableNow)
+                //{
+                //    actor.jobs.EndCurrentJob(JobCondition.Incompletable);
+                //}
 
                 if (workCycleProgress <= 0)
                 {

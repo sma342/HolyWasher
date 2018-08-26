@@ -6,7 +6,7 @@
     <label>holy wash</label>
     <giverClass>HollyWasher.WorkGiver_HollyWash</giverClass>
     <workType>Crafting</workType>
-    <priorityInType>95</priorityInType>
+    <priorityInType>100</priorityInType>
 	
     <fixedBillGiverDefs>
       <li>HollyWasher</li>

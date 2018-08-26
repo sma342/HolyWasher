@@ -1,3 +1,7 @@
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Holy Washer B18\Assemblies\HolyWasher.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Holy Washer B18\Source\HolyWasher\obj\Debug\HolyWasher.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Holy Washer B18\Source\HolyWasher\obj\Debug\HolyWasher.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HolyWasher\Assemblies\HolyWasher.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HolyWasher\Source\HolyWasher\obj\Debug\HolyWasher.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HolyWasher\Source\HolyWasher\obj\Debug\HolyWasher.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\HolyWasher\Source\HolyWasher\obj\Debug\HolyWasher.dll
