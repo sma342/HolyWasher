@@ -43,5 +43,37 @@
       </li>
     </stages>
   </ThoughtDef>
+  <RecipeDef>
+  <defName>MakeSoapFromVege</defName>
+		<label>make soap from vegetables</label>
+		<description>make soap using various vegetable's oils.</description>
+		<jobString>Making soap from vegetables.</jobString>
+		<effectWorking>BurnDrug</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>1000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+					<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			<li>PlantFoodRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Soap>35</Soap>
+		</products>
+		<researchPrerequisite>BasicWashing</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+	</RecipeDef>
 </Defs>
  
