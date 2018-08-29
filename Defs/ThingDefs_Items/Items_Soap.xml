@@ -5,7 +5,7 @@
     <label>soap</label>
     <description>Soap made of various plant oils and other stuff. Smells nice. Do not eat!</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Milk</texPath>
+      <texPath>Things/Item/Resource/Soap</texPath>
 	  <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 	<socialPropernessMatters>true</socialPropernessMatters>
