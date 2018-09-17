@@ -19,8 +19,10 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<description>The good old washing machine "Halinka 2000" removes a worn by corpse effect from Apparel.</description>
 		<graphicData>
-			<texPath>Things/Building/WM</texPath>
+			<texPath>Things/HolyWasher/Building/washer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.2,1.2)</drawSize>
 		</graphicData>
     <costList>
       <Steel>150</Steel>
@@ -57,6 +59,16 @@
         <shortCircuitInRain>true</shortCircuitInRain>
         <basePowerConsumption>300</basePowerConsumption>
       </li>
+	  <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>25.0</fuelConsumptionRate>
+        <fuelCapacity>50</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Soap</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
       <li Class="CompProperties_Flickable"/>
      <li Class="CompProperties_Breakdownable"/>
     </comps>
@@ -73,8 +85,9 @@
 		<thingClass>Building_WorkTable</thingClass>
 		<description>Old metal basin where you wash your clothes to remove a worn by corpse effect from Apparel.</description>
 		<graphicData>
-			<texPath>Things/Building/MetalBasin/MB</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/HolyWasher/Building/basin/basin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 		<stuffCategories>
@@ -111,6 +124,16 @@
 		</building>
    <comps>
      <li Class="CompProperties_Breakdownable"/>
+	 <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelCapacity>10</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Soap</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
     </comps>
  <researchPrerequisites>
       <li>BasicWashing</li>
