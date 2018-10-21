@@ -125,7 +125,7 @@
    <comps>
      <li Class="CompProperties_Breakdownable"/>
 	 <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>10.0</fuelConsumptionRate>
+        <fuelConsumptionRate>100.0</fuelConsumptionRate>
         <fuelCapacity>10</fuelCapacity>
         <fuelFilter>
           <thingDefs>
