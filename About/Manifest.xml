@@ -10,6 +10,6 @@
         <li>HugsLib</li>
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>https://rawgit.com/sma342/HolyWasher/master/About/Manifest.xml</manifestUri>
+    <manifestUri>https://github.com/sma342/HolyWasher/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/sma342/HolyWasher/releases/latest</downloadUri>
 </Manifest>
