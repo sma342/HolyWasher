@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>HolyWasher</identifier>
+    <version>1.4.1</version>
+    <dependencies/>
+    <incompatibleWith/>
+    <loadBefore/>
+    <loadAfter/>
+    <suggests>
+        <li>HugsLib</li>
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://rawgit.com/sma342/HolyWasher/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/sma342/HolyWasher/releases/latest</downloadUri>
+</Manifest>
