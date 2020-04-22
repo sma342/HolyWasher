@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-<name>HolyWasher</name>
-<author>sma342, Blacharnia</author>
-<targetVersion>1.0.0</targetVersion>
-<url/>
-<description>
-Holy Washer that removes worn by corpse effect from apparel 
-	C# Code - Blacharnia 
-	XML Code and Artwork - sma342
+<name>HolyWasher (Continued)</name>
+<packageId>Mlie.HolyWasher</packageId>
+	<author>Mlie</author>
+	<url>https://github.com/emipa606/HolyWasher</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies />
+	<loadAfter />
+	<description>Update of sma342, Blacharnias mod for RimWorld 1.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=1136436925
+
+Support-chat:
+https://discord.gg/SuhwVpM
+
+Non-steam version:
+https://github.com/emipa606/HolyWasher
+	
+--- Original Description ---
+Holy Washer that removes worn by corpse effect from apparel
+C# Code - Blacharnia
+XML Code and Artwork - sma342
+Additional C# help - erdelf
+1.0 Textures - HCSK Team
+v1.4.1
 </description>
 </ModMetaData>
