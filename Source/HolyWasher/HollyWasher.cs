@@ -1,18 +1,8 @@
-﻿using RimWorld;
-using System.Collections.Generic;
-using System.Reflection;
-using Verse;
-using Verse.AI.Group;
+﻿using Verse;
 
 namespace HollyWasher
 {
     public class HollyWasher : Building
     {
-
-        public HollyWasher()
-        {
-
-        }
-
     }
 }

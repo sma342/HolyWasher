@@ -1,13 +1,11 @@
-﻿using System;
-
+﻿using RimWorld;
 using Verse;
-using RimWorld;
 
 namespace HollyWasher
 {
-	[DefOf]
-	public static class LocalJobDefOf {
-		public static JobDef HollyWash;
-	}
-
+    [DefOf]
+    public static class LocalJobDefOf
+    {
+        public static JobDef HollyWash;
+    }
 }
