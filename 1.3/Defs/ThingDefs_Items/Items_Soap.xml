@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--============= COMING IN NEXT UPDATE ==========================
+  <ThingDef ParentName="ResourceBase">
+    <defName>Soap</defName>
+    <label>soap</label>
+    <description>Soap made of various plant oils and other stuff. Smells nice. Do not eat!</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Soap</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>10.5</MarketValue>
+      <Mass>0.050</Mass>
+			<MaxHitPoints>20</MaxHitPoints>
+      <Flammability>0.9</Flammability>
+      <Nutrition>0.01</Nutrition>
+      <FoodPoisonChanceFixedHuman>11</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>28</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+	  <tasteThought>AteSoap</tasteThought>
+      <foodType>Plant, Processed</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+   <ThoughtDef>
+    <defName>AteSoap</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate soap</label>
+        <description>Ewww! I ate soap! It tastes so badly.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <RecipeDef>
+  <defName>MakeSoapFromVege</defName>
+		<label>make soap from vegetables</label>
+		<description>make soap using various vegetable's oils.</description>
+		<jobString>Making soap from vegetables.</jobString>
+		<effectWorking>BurnDrug</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>1000</workAmount>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+					<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			<li>PlantFoodRaw</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Soap>35</Soap>
+		</products>
+		<researchPrerequisite>BasicWashing</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+	</RecipeDef>
+	-->
+</Defs>
